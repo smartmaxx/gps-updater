@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "make": "GoPro",
+  "model": [
+    "HERO9 Black",
+    "HERO10 Black",
+    "HERO11 Black",
+    "HERO12 Black"
+  ],
+  "datetime_field_priority": [
+    "DateTimeOriginal",
+    "CreateDate"
+  ],
+  "datetime_is_utc": true,
+  "default_timezone_offset": null,
+  "has_embedded_gps": true,
+  "on_embedded_gps": "warn",
+  "video_timestamp_source": "CreateDate",
+  "notes": "GoPro stores DateTimeOriginal in UTC. Video files contain embedded GPS tracks.",
+  "reference_timestamp_source": "gps_timestamp"
+}

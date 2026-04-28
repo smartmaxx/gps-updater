@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "make": "Canon",
+  "model": [
+    "EOS",
+    "PowerShot"
+  ],
+  "datetime_field_priority": [
+    "DateTimeOriginal",
+    "DateTimeDigitized",
+    "CreateDate"
+  ],
+  "datetime_is_utc": false,
+  "default_timezone_offset": null,
+  "has_embedded_gps": false,
+  "on_embedded_gps": null,
+  "video_timestamp_source": "CreateDate",
+  "notes": "Canon EOS and PowerShot cameras do not write timezone info in standard EXIF.",
+  "reference_timestamp_source": "gps_timestamp"
+}

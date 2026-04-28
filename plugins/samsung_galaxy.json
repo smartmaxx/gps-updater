@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "make": "samsung",
+  "model": [
+    "SM-"
+  ],
+  "datetime_field_priority": [
+    "DateTimeOriginal",
+    "CreateDate",
+    "DateTime"
+  ],
+  "datetime_is_utc": false,
+  "default_timezone_offset": null,
+  "has_embedded_gps": true,
+  "on_embedded_gps": "warn",
+  "video_timestamp_source": "CreateDate",
+  "notes": "Samsung Galaxy phones (SM- prefix). Timezone offset presence varies across models and Android versions. GPS is embedded in photos and videos.",
+  "reference_timestamp_source": "gps_timestamp"
+}

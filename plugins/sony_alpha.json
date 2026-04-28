@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "make": "SONY",
+  "model": [
+    "ILCE-",
+    "ZV-E",
+    "DSC-",
+    "SLT-"
+  ],
+  "datetime_field_priority": [
+    "DateTimeOriginal",
+    "DateTimeDigitized",
+    "CreateDate"
+  ],
+  "datetime_is_utc": false,
+  "default_timezone_offset": null,
+  "has_embedded_gps": false,
+  "on_embedded_gps": null,
+  "video_timestamp_source": "CreateDate",
+  "notes": "Sony Alpha and Cyber-shot cameras do not write timezone info in standard EXIF. User must supply timezone.",
+  "reference_timestamp_source": "gps_timestamp"
+}

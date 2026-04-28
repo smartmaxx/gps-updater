@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "make": "FUJIFILM",
+  "model": [
+    "X-T",
+    "X-S",
+    "X-E",
+    "X-H",
+    "X100",
+    "GFX"
+  ],
+  "datetime_field_priority": [
+    "DateTimeOriginal",
+    "FujifilmAutoRotate",
+    "CreateDate"
+  ],
+  "datetime_is_utc": false,
+  "default_timezone_offset": null,
+  "has_embedded_gps": false,
+  "on_embedded_gps": null,
+  "video_timestamp_source": "CreateDate",
+  "notes": "Fujifilm X-series cameras do not write timezone info. Some models include a non-standard FujifilmMaker date field.",
+  "reference_timestamp_source": "gps_timestamp"
+}

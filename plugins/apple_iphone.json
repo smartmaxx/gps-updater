@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "make": "Apple",
+  "model": [
+    "iPhone"
+  ],
+  "datetime_field_priority": [
+    "DateTimeOriginal",
+    "CreateDate"
+  ],
+  "datetime_is_utc": false,
+  "default_timezone_offset": null,
+  "has_embedded_gps": true,
+  "on_embedded_gps": "warn",
+  "video_timestamp_source": "CreateDate",
+  "notes": "iPhones write OffsetTimeOriginal (timezone offset) since iOS 14. GPS is always embedded. The media_scanner uses OffsetTimeOriginal automatically when present.",
+  "reference_timestamp_source": "gps_timestamp"
+}

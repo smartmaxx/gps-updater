@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "make": "NIKON CORPORATION",
+  "model": [
+    "NIKON Z",
+    "NIKON D"
+  ],
+  "datetime_field_priority": [
+    "DateTimeOriginal",
+    "DateTimeDigitized",
+    "CreateDate"
+  ],
+  "datetime_is_utc": false,
+  "default_timezone_offset": null,
+  "has_embedded_gps": false,
+  "on_embedded_gps": null,
+  "video_timestamp_source": "CreateDate",
+  "notes": "Nikon cameras do not write timezone offset in standard EXIF.",
+  "reference_timestamp_source": "gps_timestamp"
+}

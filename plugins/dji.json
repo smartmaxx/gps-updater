@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "make": "DJI",
+  "model": [
+    "Mavic 3",
+    "Mini 3",
+    "Mini 4",
+    "Air 2S",
+    "Air 3",
+    "Avata"
+  ],
+  "datetime_field_priority": [
+    "DateTimeOriginal",
+    "CreateDate"
+  ],
+  "datetime_is_utc": true,
+  "default_timezone_offset": null,
+  "has_embedded_gps": true,
+  "on_embedded_gps": "warn",
+  "video_timestamp_source": "CreateDate",
+  "notes": "DJI stores timestamps in UTC and embeds GPS in video files.",
+  "reference_timestamp_source": "gps_timestamp"
+}
